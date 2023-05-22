@@ -1,1 +1,1 @@
-![alt text](https://raw.githubusercontent.com/denisosadchyi1/Practices_MSVR/features/PA1/pa1Gif.gif)
+PA2 by Osadchyi Denys, variant №13: "Surface of Revolution of a General Sinusoid"
