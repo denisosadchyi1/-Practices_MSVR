@@ -8,8 +8,8 @@
 
     <script src="./Utils/trackballRotator.js"></script>
     <script src="./Utils/m4Helper.js"></script>
-    <script src="./main.js"></script>
     <script src="./shader.gpu"></script>
+    <script src="./main.js"></script>
   </head>
   <body onload="init()">
     <h2>Surface of Revolution of a General Sinusoid</h2>
@@ -22,26 +22,19 @@
     <div id="canvas-holder">
       <canvas width="600" height="600" id="webglcanvas"></canvas>
     </div>
-    <div style="display: flex; justify-content: center; align-items: center">
+    <div style="display:flex; justify-content: center; align-items: center;">
       <h3>Eye Separation</h3>
-      <input type="range" id="eye" value="0.1" , min="0" max="1" step="0.1" />
-      <h3 class="num" style="margin-right: 20px"></h3>
+      <input type="range" id="eye" value="0.1", min="0" max="1" step="0.1" >
+      <h3 class="num" style="margin-right: 20px;"></h3>
       <h3>FIELD OF VIEW</h3>
-      <input
-        type="range"
-        id="fov"
-        value="1.56"
-        min="0.4"
-        max="3.14"
-        step="0.02"
-      />
-      <h3 class="num" style="margin-right: 20px"></h3>
+      <input type="range" id="fov" value =1.56 min="0.4" max="3.14" step="0.02" >
+      <h3 class="num" style="margin-right: 20px;"></h3>
       <h3>NEAR CLIPPING DISTANCE</h3>
-      <input type="range" id="near" value="8" min="7" max="10" step="0.1" />
-      <h3 class="num" style="margin-right: 20px"></h3>
+      <input type="range" id="near" value="8" min="7" max="10" step="0.1" >
+      <h3 class="num" style="margin-right: 20px;"></h3>
       <h3>CONVERGENCE</h3>
-      <input type="range" id="conv" value="30" min="1" max="100" step="1" />
-      <h3 class="num" style="margin-right: 20px"></h3>
+      <input type="range" id="conv" value="30" min="1" max="100" step="1" >
+      <h3 class="num" style="margin-right: 20px;"></h3>
     </div>
   </body>
 </html>
